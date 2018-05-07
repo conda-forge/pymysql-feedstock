@@ -17,12 +17,15 @@ PyPy and IronPython.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pymysql-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pymysql-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pymysql-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pymysql-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pymysql/badges/version.svg)](https://anaconda.org/conda-forge/pymysql)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pymysql/badges/downloads.svg)](https://anaconda.org/conda-forge/pymysql)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pymysql-green.svg)](https://anaconda.org/conda-forge/pymysql) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pymysql.svg)](https://anaconda.org/conda-forge/pymysql) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pymysql.svg)](https://anaconda.org/conda-forge/pymysql) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pymysql.svg)](https://anaconda.org/conda-forge/pymysql) |
 
 Installing pymysql
 ==================
