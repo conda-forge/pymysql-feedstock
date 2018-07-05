@@ -1,6 +1,6 @@
 {% set name = "PyMySQL" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "34e19bfff13e8b2ffc38a68f9ad064609d48f3d46320e8ab8184af527e662629" %}
+{% set version = "0.9.2" %}
+{% set sha256 = "9ec760cbb251c158c19d6c88c17ca00a8632bac713890e465b2be01fdc30713f" %}
 
 package:
   name: {{ name|lower }}
