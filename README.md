@@ -120,4 +120,5 @@ Feedstock Maintainers
 =====================
 
 * [@djsutherland](https://github.com/djsutherland/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
