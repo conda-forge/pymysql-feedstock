@@ -5,7 +5,7 @@ Home: http://github.com/PyMySQL/PyMySQL
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Pure Python MySQL Driver
 
@@ -120,4 +120,5 @@ Feedstock Maintainers
 =====================
 
 * [@djsutherland](https://github.com/djsutherland/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
