@@ -5,9 +5,13 @@ Home: http://github.com/PyMySQL/PyMySQL
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymysql-feedstock/blob/master/LICENSE.txt)
 
 Summary: Pure Python MySQL Driver
+
+Development: https://github.com/PyMySQL/PyMySQL
+
+Documentation: http://pymysql.readthedocs.io/
 
 This package contains a pure-Python MySQL client library. The goal of
 PyMySQL is to be a drop-in replacement for MySQLdb and work on CPython,
