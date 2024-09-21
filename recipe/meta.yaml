@@ -26,6 +26,10 @@ requirements:
 test:
   imports:
     - pymysql
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: http://github.com/PyMySQL/PyMySQL
