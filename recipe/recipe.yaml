@@ -1,16 +1,15 @@
 schema_version: 1
 
 context:
-  name: PyMySQL
-  version: "1.2.0"
+  version: "1.2.3"
 
 package:
-  name: ${{ name|lower }}
+  name: pymysql
   version: ${{ version }}
 
 source:
-  url: https://github.com/PyMySQL/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: d462aab8d92cf9d4111c05720fa5c19ff8e5d89368449a8ae0e8b98c236303cd
+  url: https://github.com/PyMySQL/PyMySQL/archive/refs/tags/v${{ version }}.tar.gz
+  sha256: 9f3589beee81491566794fb9678ec2c7e54cc5d86605032b48e1520b6641aade
 
 build:
   number: 0
@@ -30,7 +29,9 @@ tests:
       imports:
         - pymysql
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - '*'
 
 about:
   license: MIT
