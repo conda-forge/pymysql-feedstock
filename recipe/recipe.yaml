@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.2.3"
+  version: "1.2.4"
 
 package:
   name: pymysql
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/PyMySQL/PyMySQL/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 9f3589beee81491566794fb9678ec2c7e54cc5d86605032b48e1520b6641aade
+  sha256: e1430fe56228eb760a2a8c68cdeb5ce5ca7e95f0a3113fabe3eb17fa6943d224
 
 build:
   number: 0
